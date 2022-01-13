@@ -1,0 +1,16 @@
+{
+    "extends" : "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true,
+          "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+      "no-return-await": "off",
+      "linebreak-style": "off",
+      "consistent-return": "off"
+    }
+}
