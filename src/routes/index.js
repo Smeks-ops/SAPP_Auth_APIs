@@ -1,8 +1,8 @@
 import express from 'express';
-import PublicAuthRoute from './public_system/auth';
+import AuthRoute from './auth_system/auth';
 
 const router = express.Router();
 
-router.use(PublicAuthRoute);
+router.use(AuthRoute);
 
 export default router;

@@ -1,10 +1,10 @@
 import sendMail from '../../services/emailSender';
 import {
   validateCreateUserDetails, validateUserLogin, validateUserEmail, validateUserPassword,
-} from '../../validation-schema/public system/auth';
+} from '../../validation-schema/auth_system/auth';
 import { resetPasswordEmailTemplate, inviteUserEmailTemplate } from '../../utils/emailTemplates';
-import User from '../../repository/public system/user';
-import UserRoles from '../../repository/public system/userRoles';
+import User from '../../repository/auth_system/user';
+import UserRoles from '../../repository/auth_system/userRoles';
 
 const bcrypt = require('bcrypt');
 const {

@@ -1,5 +1,5 @@
 import express from 'express';
-import Auth from '../../controllers/public_system/auth';
+import Auth from '../../controllers/auth_system/auth';
 import checkUserToken, { checkResetPasswordToken } from '../../middlewares/checkToken';
 
 const router = express.Router();
